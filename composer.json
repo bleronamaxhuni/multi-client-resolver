@@ -6,7 +6,10 @@
     "autoload": {
         "psr-4": {
             "Bleronamaxhuni\\MultiClientResolver\\": "src/"
-        }
+        },
+        "files": [
+            "src/helpers.php"
+        ]
     },
     "authors": [
         {
@@ -14,5 +17,7 @@
             "email": "bleronamaxhunni@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0"
+    }
 }
